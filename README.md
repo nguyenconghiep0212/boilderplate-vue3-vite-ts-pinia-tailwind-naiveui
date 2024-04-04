@@ -1,4 +1,4 @@
-# Boilterplate Vue 3 + Typescript + Vite + Pinia
+# Boilterplate Vue 3 + Typescript + Vite + Pinia + Axios + Tailwind + NaiveUI
 
 This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
@@ -10,6 +10,8 @@ This template should help get you started developing with Vue 3 and Typescript i
 - [Vue Router](https://router.vuejs.org/)
 - [Pinia](https://pinia.vuejs.org/)
 - [Axios](https://axios-http.com/)
+- [Tailwind](https://tailwindcss.com/)
+- [NaiveUI](https://www.naiveui.com/)
 - [ESLint](https://eslint.org/) - [Prettier](https://prettier.io/)
 
 ## Unit tests tools
@@ -58,6 +60,11 @@ or only:
 yarn
 ```
 
+**PNPM**
+```
+pnpm install
+``` 
+
 ### :three: Compilation and HMR for development with Vite
 
 **NPM**
@@ -68,6 +75,11 @@ npm run dev
 **YARN**
 ```
 yarn dev
+```
+
+**PNPM**
+```
+pnpm dev
 ```
 
 - **Perfect!** :white_check_mark: If you followed the previous steps correctly, the application will be running by default on: [http://localhost:3000](http://localhost:3000)
@@ -84,6 +96,11 @@ npm run build
 yarn build
 ```
 
+**PNPM**
+```
+pnpm build
+```
+
 ### :five: Lints and fix files
 
 **NPM**
@@ -94,4 +111,9 @@ npm run lint
 **YARN**
 ```
 yarn lint
+```
+
+**PNPM**
+```
+pnpm lint
 ```
